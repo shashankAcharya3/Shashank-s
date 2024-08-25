@@ -64,13 +64,26 @@ const chess_call = async () => {
       }
     }
   }
-
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
   document.getElementById("results").innerHTML = `
     <div class="result-section">
       <h2>Results</h2>
       <div class="results-table">
         <div class="header">
-          <div>Result of ${currentMonth}th month</div>
+          <div>Result of ${months[currentMonth - 1]} month</div>
         </div>
         <div>
           <div>${player1}</div>
