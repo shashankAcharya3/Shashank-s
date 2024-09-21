@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make my Trip</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="background_image">
+      <nav class="grid sm:grid-cols-12">
+
+        <div class="sm:col-span-4 max-h-[60px] logo">
+          <img class="m-2 ml-44" src="./images/mmt_dt_top_icon.avif" alt="" />
+        </div>
+
+        <div class="sm:col-span-4 min-h-[60px] description">
+
+          <div class=" m-2 list_property pr-2 border-r-2 border-gray-400 border-dotted">
+            <img class="h-8 w-8 mt-1.5 p-0" src="./images/list_property.png" alt="" />
+            <div class="list_propery_text text-white">
+            <strong>List your Property</strong></p>
+            <p>Start ear today</p>
+            </div>
+          </div>
+
+          <div class="my_biz m-2 pr-2 border-r-2 border-gray-400 border-dotted">
+            <img class="h-8 w-8 mt-1.5 p-0" src="./images/mybiz12345 Background Removed.png" alt="" />
+            <div class="list_propery_text text-white">
+            <strong>List your Property</strong></p>
+            <p>Start ear today</p>
+            </div>
+         </div>
+
+         <div class="my_trips m-2">
+             <img class="h-8 w-8 mt-1.5 p-0" src="./images/travellug123 Background Removed.png" alt="" />
+            <div class="list_propery_text text-white">
+            <strong>List your Property</strong></p>
+            <p>Start ear today</p>
+            </div>
+         </div>
+         </div>
+        <div class="sm:col-span-3 min-h-[60px] description description_logins">
+         <div class="login_btn">
+            <img class="h-11 w-54 m-2 p-0" src="./images/loginorcreate.png" alt="">
+         </div>
+           <div class="language"></div>
+            <img class="h-11 w-33 m-2 p-0" src="./images/Screenshot 2024-09-19 at 7.16.14 PM.png" alt="">
+         </div>
+        </div>
+         
+          </div>
+        </div>
+      </nav>
+      <div class="services grid sm:grid-cols-12">
+        <div class="l-space sm:col-span-3"></div>
+        <div class="services_list sm:col-span-6 h-100px rounded-lg mt-9 cursor-pointer">
+
+          <div class="service_items border-b-2 border-sky-400">
+            <img src="./images/logos_all.png" alt="" class="p-3">
+            <p class="text-center text-sky-400">Flights</p>
+          </div>
+          <div class="service_items">
+            <img src="./images/logos_all.png" class="p-3" alt="">
+            <p class="text-center">Hotels</p>
+          </div>
+          <div class="service_items">
+            <img src="./images/logos_all.png" class="p-3" alt="">
+            <p class="text-center">Homestay</p>
+          </div>
+          <div class="service_items">
+            <img src="./images/logos_all.png" class="p-3" alt="">
+            <p class="text-center">Holiday</p>
+          </div>
+          <div class="service_items">
+            <img src="./images/logos_all.png" class="p-3" alt="">
+            <p class="text-center">Train</p>
+          </div>
+          <div class="service_items">
+            <img src="./images/logos_all.png" class="p-3" alt="">
+            <p class="text-center">Bus</p>
+          </div>
+          <div class="service_items">
+            <img src="./images/logos_all.png" class="p-3" alt="">
+            <p class="text-center">Cabs</p>
+          </div>
+          <div class="service_items">
+            <img src="./images/logos_all.png" class="p-3" alt="">
+            <p class="text-center">Insurance</p>
+          </div>
+          <!-- <div class="service_items">
+            <img src="./images/logos_all.png" alt="">
+            <p>flights</p>
+          </div> -->
+        </div>
+        <div class="r-space sm:col-span-3"></div>
+      </div>
+
+      <div class="details">
+           <!-- <div class="left-space sm:col-span-2"></div> -->
+           <div class="contents">
+
+              <div class="trip_details">
+                <div class="trip_type">
+                  <input id="default-radio-1" type="radio" value="" name="default-radio" checked>
+                  <label class="mx-4" for="default-radio-1" >One Way</label>
+
+                  <input id="default-radio-1" type="radio" value="" name="default-radio">
+                    <label class="mx-4" for="default-radio-1" >Round Trip</label>
+
+                  <input id="default-radio-1" type="radio" value="" name="default-radio">
+                      <label class="mx-4" for="default-radio-1" >Multi City</label>
+                </div>
+                <div class="trip_description">
+                  <p class="font-thin">Book International and Domestic Flights</p>
+                </div>
+              </div>
+
+              <div class="flight_details cursor-pointer">
+                <div class="to flight_items">
+                  <p class="font-thin">From</p>
+                  <p class="font-bold text-4xl">Delhi</p>
+                  <p class="font-thin">DEL,Delhi Airport India</p>
+                </div>
+                <div class="from flight_items">
+                  <p class="font-thin">To</p>
+                  <p class="font-bold text-4xl">Bengaluru</p>
+                  <p class="font-thin">BLR,Bengaluru International Airport india</p>                  
+                </div>
+                <div class="date flight_items">
+                  <p class="font-thin">Departure</p>
+                  <p class="font-bold text-3xl">22 <span class="text-lg">sep'24</span></p>
+                  <p class="font-thin">Sunday</p> 
+                </div>
+                <div class="return flight_items">
+                  <p class="font-thin">Return</p>
+                  <p class="font-bold text-xs">Tap to add a return date for bigger discounts</p>
+                </div>
+                <div class="traveller flight_items">
+                  <p class="font-thin">Traveller & Class</p>
+                  <p class="font-bold text-4xl">1 <span class="text-base">Traveller</span></p>
+                  <p class="font-thin">Economy/Premium Economy</p>
+                </div>
+              </div>
+
+              <div class="costumer_type flex">
+                <div class="sale mr-6">
+                  <p class="sale_item">Select a special fare</p>
+                  <span class="rounded-md sales sale_item">EXTRA SAVINGS</span>
+                </div>
+                <div class="regular costumer_list cursor-pointer">
+                  <input type="radio" name="discount" id="regular" checked>
+                  <label class="label font-bold" for="regular">Regular</label>
+                  <p class="font-thin ml-4">Regular fares</p>
+                </div>
+                <div class="student costumer_list cursor-pointer">
+                  <input type="radio" name="discount" id="regular" >
+                  <label class="label font-bold" for="regular">Student</label>
+                  <p class="font-thin ml-4">Extra discounts/baggage</p>
+                </div>
+                <div class="senior costumer_list cursor-pointer">
+                  <input type="radio" name="discount" id="regular" >
+                  <label class="label font-bold" for="regular">Senior Citizen</label>
+                  <p class="font-thin ml-4">up to 600 off</p>
+                </div>
+                <div class="armed costumer_list cursor-pointer">
+                  <input type="radio" name="discount" id="regular" >
+                  <label class="label font-bold" for="regular">armed force</label>
+                  <p class="font-thin ml-4">up to 600 off</p>
+                </div>
+                <div class="doctor costumer_list cursor-pointer">
+                  <input type="radio" name="discount" id="regular" >
+                  <label class="label font-bold" for="regular">doctor & Nurses</label>
+                  <p class="font-thin ml-4">up to 600 off</p>
+                </div>
+              </div>
+    
+              <button class="search-btn">SEARCH</button>
+
+           </div>
+           <!-- <div class="right-space sm:col-span-2"></div> -->
+      </div>
+      </div>
+    </header>
+  </body>
+</html>
